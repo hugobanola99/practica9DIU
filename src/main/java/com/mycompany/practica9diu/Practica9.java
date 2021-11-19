@@ -245,7 +245,7 @@ public final class Practica9 extends javax.swing.JFrame {
         char[] clave = campoClave.getPassword();
         String password = String.valueOf(clave);
         String usuario = campoUsuario.getText();
-        System.out.println("La clave introducida es "+password);
+        
         this.conectarDatabase(usuario,password);
         try {
             this.mostrarTablas();
